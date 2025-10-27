@@ -81,3 +81,7 @@ nav a.active {
 }
 
 a {text-decoration: none;}
+
+#subtext {
+    text-align: center;
+}
