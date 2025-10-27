@@ -35,7 +35,7 @@ nav a {
     color: maroon;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 17px;
 }
 
@@ -68,9 +68,13 @@ nav a.active {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .container {
     padding: 2% 5%;
+}
+
+.card img {
+    height: 150px;
 }
