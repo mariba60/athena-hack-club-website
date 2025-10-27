@@ -35,7 +35,7 @@ nav a {
     color: maroon;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none !important;
+    text-decoration: none;
     font-size: 17px;
 }
 
@@ -63,7 +63,6 @@ nav a.active {
     max-width: 150px;
     flex: 1;
     padding: 15px;
-    text-decoration: none;
     border-radius: 20px;
     margin: 10px;
 }
@@ -80,3 +79,5 @@ nav a.active {
     height: 150px;
     object-fit: cover;
 }
+
+a {text-decoration: none;}
